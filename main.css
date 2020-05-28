@@ -1,0 +1,19 @@
+/* COMMON */
+
+/* NAVBAR*/
+
+.bg-dark-grey {
+  background-color: rgba(53, 63, 70, 0.85)
+}
+.padding-navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.margin-right-navbar {
+  margin-right: 550px;
+}
+
+.nav-link:hover {
+
+}
