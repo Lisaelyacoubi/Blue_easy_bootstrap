@@ -19,8 +19,8 @@
 <body>
   <header>
     <!--Navbar start -->
-    <section class="banner width">
-      <div class="banner width">
+    <section class="banner width height">
+      <div class="width">
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark-grey padding-navbar width">
               <a class="navbar-brand text-uppercase font-weight-bold margin-right-navbar" href="#">Blu<span class="color-light-blue font-weight-bold">e</span>asy</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +47,11 @@
               </div>
           </nav>
           <!-- Navbar end -->
+          <div class="center">
+            <h2 class="bg-dark-grey text-uppercase text-center">"I'm looking for the unexpected. <br>I'm looking for things i've never seen before."</h2>
+            <!-- Title end -->
+          </div>
+          <!-- Banner end -->
         </div>
       </section>
   </header>
