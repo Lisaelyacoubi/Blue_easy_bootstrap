@@ -107,8 +107,19 @@ include('header.php');
 <!-- Default section start -->
 <section class="bg-default-section">
   <div class="container">
-    <h6 class="text-uppercase">Just default section</h6>
+    <h2 class="text-uppercase">Just default section</h2>
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie. Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+        </p>
+      </div>
+      <div class="col-lg-6">
+      </div>
+
+    </div>
 
 </section>
 
