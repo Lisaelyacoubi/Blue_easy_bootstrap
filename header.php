@@ -26,35 +26,38 @@
       <div class="width">
         <div class="container-fluid bg-dark-grey">
           <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark padding-navbar">
-              <a class="navbar-brand text-uppercase font-weight-bold margin-right-navbar" href="#">Blu<span class="color-light-blue font-weight-bold">e</span>asy</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span></button>
-                  <div class="collapse navbar-collapse margin-right-left d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item active">
-                        <a class="nav-link text-uppercase mr-4" href="#">Services<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item active">
-                        <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item active">
-                        <a class="nav-link text-uppercase mr-4" href="#">Portfolio <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item active">
-                        <a class="nav-link text-uppercase margin-right-contact" href="#">Contact <span class="sr-only">(current)</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-                <!-- Navbar end -->
+            <div class="row">
+              <nav class="navbar navbar-expand-lg navbar-dark padding-navbar">
+                <a class="navbar-brand text-uppercase font-weight-bold font-size-logo col-lg-6 mr-5" href="#">Blu<span class="color-light-blue font-weight-bold">e</span>asy</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse col-lg-6" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link text-uppercase mr-4" href="#">Services<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link text-uppercase mr-4" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link text-uppercase margin-right-contact" href="#">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  <!-- Navbar end -->
+                </div>
+                <!-- Row end -->
               </div>
             </div>
             <div class="container center">
-              <h2 class="bg-dark-grey text-uppercase text-center">"I'm looking for the unexpected. <br> <span class="clear"></span>I'm looking for things i've never seen before."</h2>
+              <h2 class="text-uppercase text-center"><mark class="bg-dark-grey">"I'm looking for the unexpected.</mark><br><br><mark class="bg-dark-grey">I'm looking for things i've never seen before."</mark></h2>
             </div>
           </div>
         </section>

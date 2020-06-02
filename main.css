@@ -1,4 +1,46 @@
 /* COMMON */
+.color-light-blue {
+  color: rgba(75, 202, 255)
+}
+
+@font-face {
+font-family: 'Segoe UI';
+src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Segoe UI Semibold';
+src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot');
+src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot?#iefix') format('embedded-opentype'),
+url('/surface/Assets/css/fonts/all/semibold/seguisb.woff') format('woff'),
+url('/surface/Assets/css/fonts/all/semibold/seguisb.svg#SegoeUISemibold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Segoe UI Bold';
+src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot');
+src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot?#iefix') format('eot'), /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
+url('/surface/Assets/css/fonts/all/bold/segoeuib.woff') format('woff'),
+url('/surface/Assets/css/fonts/all/bold/segoeuib.svg#SegoeUIBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Segoe UI Light';
+src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot');
+src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot?#iefix') format('embedded-opentype'),
+url('/surface/Assets/css/fonts/all/light/segoeuil.woff') format('woff'),
+url('/surface/Assets/css/fonts/all/light/segoeuil.svg#SegoeUILight') format('svg');
+font-weight: normal;
+font-style: normal;}
 
 
 
@@ -9,7 +51,7 @@
 /* HEADER*/
 
 .height {
-  height: 799px;
+  height: 800px;
 }
 
   /* NAVBAR */
@@ -19,21 +61,17 @@
   width: 100%;
 }
 
+.font-size-logo{
+  font-size: 30px;
+}
+
 .bg-dark-grey {
   background-color: rgba(53, 63, 70, 0.85);
 }
 
-.color-light-blue {
-  color: rgba(75, 202, 255)
-}
 
 .padding-navbar {
   height: 148px;
-}
-
-.margin-right-left {
-  margin-left: 510px;
-  margin-right: 370px;
 }
 
 .nav-link:hover {
@@ -59,11 +97,7 @@ h2 {
   color: rgba(241, 242, 242);
 }
 
-                  /* SEPARER LE TITRE */
 
-.clear {
-
-}
 
 /* SECTION SERVICES */
 
@@ -136,7 +170,7 @@ iframe {
 }
 
 .john-doe-image {
-    background: url('images/who/john-doe.png');
+    background: url('images/who/bg-john-doe.png');
     background-size: cover;
     background-position: center;
     opacity: 100;
@@ -157,7 +191,7 @@ iframe {
 }
 
 .layer {
-  background: url('images/contact/layer.png');
+  background: url('images/contact/smoke.png');
   background-size: cover;
   background-position: center;
   opacity: 2;

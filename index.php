@@ -229,7 +229,7 @@ include('header.php');
       <div class="row form-group">
         <div class="col">
           <label class="text-uppercase">Message</label>
-          <textarea name="description" id="description" class="form-control background-transparent"></textarea><br>
+          <textarea name="description" id="description" rows="8" class="form-control background-transparent" ></textarea><br>
           <button class="text-uppercase"  type="button">Message</button>
         </div>
       </div>
