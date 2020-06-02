@@ -3,31 +3,31 @@ include('header.php');
  ?>
 
 <!-- Services Start-->
-<section class="bg-blue size-section-2">
-  <div class="container ">
-    <h2>Services</h2>
+<section class="container-fluid bg-blue">
+  <div class="container pt-5">
+    <h2 class="text-uppercase">Services</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" />
   </div>
-  <div class="container">
+  <div class="container mt-4 pb-5">
     <div class="row">
       <div class="col-lg-3">
         <img src="images/service/coffee.png" alt="coffee"/>
-        <h6>Coffee</h6>
+        <h3 class="text-uppercase mt-3 mb-3">Coffee</h3>
         <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
       </div>
       <div class="col-lg-3">
         <img src="images/service/instant.png" alt="instant"/>
-        <h6>Instant</h6>
+        <h3 class="text-uppercase mt-3 mb-3">Instant</h3>
         <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
       </div>
       <div class="col-lg-3">
         <img src="images/service/serious.png" alt="serious"/>
-        <h6>Serious</h6>
+        <h3 class="text-uppercase mt-3 mb-3">Serious</h3>
         <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
       </div>
       <div class="col-lg-3">
         <img src="images/service/frame.png" alt="frame"/>
-        <h6>Frame</h6>
+        <h3 class="text-uppercase mt-3 mb-3">Frame</h3>
         <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
       </div>
     </div>
@@ -36,11 +36,11 @@ include('header.php');
 <!-- Services End-->
 
 <!-- Portfolio start -->
-<section>
-  <div class="container">
-    <div class="row">
+<section class="container-fluid">
+  <div class="container pt-5">
+    <div class="row mb-5">
       <div class="col-lg-6">
-        <h2 class="text-color-black">Portfolio</h2>
+        <h2 class=" text-uppercase text-color-black">Portfolio</h2>
         <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" />
       </div>
       <div class="col-lg-6">
@@ -71,33 +71,57 @@ include('header.php');
       </div>
     </div>
     <!-- End row -->
-    <div class= "container">
+    <div class= "pb-5">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/pier.png" alt="pier" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/gate.png" alt="gate" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/lac.png" alt="lac" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/land.png" alt="land" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/house.png" alt="house" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/surf.png" alt="surf" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/montain.png" alt="montain" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
-        <div class="col-lg-3">
+        <div class="services col-lg-3">
           <img src="images/portfolio/montain-snow.png" alt="montain-snow" class="image-width">
+          <div class="overlay">
+            <i class="fas fa-plus fa-2x icon-services text-center"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -106,22 +130,114 @@ include('header.php');
 
 <!-- Default section start -->
 <section class="bg-default-section">
-  <div class="container">
+  <div class="container pt-5 pb-4">
     <h2 class="text-uppercase">Just default section</h2>
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+  </div>
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p><br>
+        <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+        </p>
+        <button type="button" class="btn btn-outline-dark text-uppercase">Visit me</button>
+      </div>
+      <div class="col-lg-6">
+        <iframe src="https://player.vimeo.com/video/188829802" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+</section>
+<!-- Default section end -->
+
+<!-- Twitter start -->
+<section class="bg-blue">
+  <div class="container pt-5 pb-4">
+    <h2 class="text-uppercase">Twitter</h2>
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+    <i class="fab fa-twitter fa-lg text-white d-flex justify-content-end"></i>
+    <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <br> <span class="font-weight-bold">@cheesecake</span> tootsie roll.</p>
+  </div>
+</section>
+<!-- Twitter end -->
+
+<!-- Who is John Doe start -->
+<section class="john-doe-image section-john-doe">
+  <div class="container pt-5">
+    <h2 class="text-uppercase">Who is John Doe?</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" />
   </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie. Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
-        </p>
+        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p><br>
+        <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
       </div>
       <div class="col-lg-6">
+        <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</p><br><br>
+        <i class="fab fa-twitter fa-2x fa-border text-white mr-2"></i>
+        <i class="fab fa-google-plus-g fa-2x fa-border text-white mr-2"></i>
+        <i class="fas fa-coffee fa-2x fa-border text-white mr-2"></i>
+        <i class="fab fa-dribbble fa-2x fa-border text-white mr-2"></i>
       </div>
-
     </div>
-
+  </div>
 </section>
+<!-- Who is John Doe end -->
+
+<!-- Testimonials start -->
+<section class="height: 360px;">
+  <div class="container pt-5 pb-4">
+    <h2 class="text-uppercase text-dark">Testimonials</h2>
+    <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" />
+    <span class="text-dark d-flex justify-content-end font-weight-bold">"</span>
+    <p class="text-dark">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
+    <p class="color-author-testimonial">- Walter White</p>
+  </div>
+</section>
+<!-- Testimonials end -->
+
+<!-- Contact start -->
+<section class="layer section-contact">
+  <div class="container pt-5 pb-4">
+    <h2 class="text-uppercase">Contact</h2>
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+  </div>
+  <div class="container">
+    <form>
+      <div class="row form-group">
+        <div class="col">
+          <label class="text-uppercase">Full name</label>
+          <input type="text" class="form-control background-transparent">
+        </div>
+        <div class="col">
+          <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control background-transparent" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="col">
+          <p><span>Linda Newman</span><br>
+          <span>W325 State Road 123</span><br>
+          <span>Mondovi, WI(Wisconsin) 98746-54321</span><br>
+          <span>(715) 946 - 1234</span>
+        </p>
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col">
+          <label class="text-uppercase">Message</label>
+          <textarea name="description" id="description" class="form-control background-transparent"></textarea><br>
+          <button class="text-uppercase"  type="button">Message</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- Contact end -->
+
 
  <?php
  include('footer.php');

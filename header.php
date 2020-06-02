@@ -10,48 +10,52 @@
   <!-- FAVICON -->
   <link rel="icon" type="image/x-icon" href="https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png">
 
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/5bf2af5d34.js" crossorigin="anonymous"></script>
+
   <!-- BOOTSTRAP-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- CSS THEME -->
   <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="text-white">
   <header>
     <!--Navbar start -->
     <section class="banner width height">
       <div class="width">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark-grey padding-navbar width">
+        <div class="container-fluid bg-dark-grey">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark padding-navbar">
               <a class="navbar-brand text-uppercase font-weight-bold margin-right-navbar" href="#">Blu<span class="color-light-blue font-weight-bold">e</span>asy</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse margin-right-left d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link text-uppercase mr-4" href="#">Services<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link text-uppercase mr-4" href="#">Portfolio <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link text-uppercase margin-right-contact" href="#">Contact <span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
+                  <span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse margin-right-left d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link text-uppercase mr-4" href="#">Services<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link text-uppercase mr-4" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link text-uppercase margin-right-contact" href="#">Contact <span class="sr-only">(current)</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <!-- Navbar end -->
               </div>
-          </nav>
-          <!-- Navbar end -->
-          <div class="center">
-            <h2 class="bg-dark-grey text-uppercase text-center">"I'm looking for the unexpected. <br>I'm looking for things i've never seen before."</h2>
-            <!-- Title end -->
+            </div>
+            <div class="container center">
+              <h2 class="bg-dark-grey text-uppercase text-center">"I'm looking for the unexpected. <br> <span class="clear"></span>I'm looking for things i've never seen before."</h2>
+            </div>
           </div>
-          <!-- Banner end -->
-        </div>
-      </section>
-  </header>
+        </section>
+      </header>

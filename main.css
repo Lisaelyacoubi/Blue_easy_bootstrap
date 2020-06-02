@@ -1,10 +1,5 @@
 /* COMMON */
 
-.width {
-  max-width: 1920px;
-  width: 100%;
-}
-
 
 
 .text-color-black {
@@ -17,10 +12,15 @@
   height: 799px;
 }
 
-/* NAVBAR */
+  /* NAVBAR */
+
+.width {
+  max-width: 1920px!important;
+  width: 100%;
+}
 
 .bg-dark-grey {
-  background-color: rgba(53, 63, 70, 0.85)
+  background-color: rgba(53, 63, 70, 0.85);
 }
 
 .color-light-blue {
@@ -41,27 +41,31 @@
   border: 1px solid rgba(75, 202, 255);
 }
 
-/* BANNER */
+    /* BANNER */
 .banner {
   background: url('images/banner/banner.png');
   background-size: cover;
 }
 
-/* TITLE */
+  /* TITLE */
 
 .center {
   margin-top: 245px;
   margin-left: 251px;
 }
 
+
 h2 {
   color: rgba(241, 242, 242);
 }
 
-/* SERVICES */
-.size-section-2 {
-  height: 403px;
+                  /* SEPARER LE TITRE */
+
+.clear {
+
 }
+
+/* SECTION SERVICES */
 
 .bg-blue {
   background-color: rgba(75, 202, 255);
@@ -78,7 +82,96 @@ h2 {
   height: 269px;
 }
 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 269px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(66, 75, 82, 0.8);
+
+}
+
+.icon-services {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.services:hover .overlay {
+    opacity: 1;
+}
+
+
 /* DEFAULT SECTION */
 .bg-default-section {
   background-color: rgba(81, 95, 103);
+}
+
+.color-dark-grey {
+  color: rgba(53, 63, 70, 0.85);
+}
+
+iframe {
+   width: 558px;
+   height: 313px;
+}
+
+/* TWITTER */
+
+
+
+/* WHO IS JOHN DOE */
+
+.section-john-doe {
+  height: 502px;
+}
+
+.john-doe-image {
+    background: url('images/who/john-doe.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 100;
+}
+
+/* TESTIMONIAL */
+.section-testimonial {
+  height: 360px;
+}
+.color-author-testimonial {
+  color: rgba(134, 216, 255);
+}
+
+/* CONTACT */
+
+.section-contact {
+  height: 813px;
+}
+
+.layer {
+  background: url('images/contact/layer.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 2;
+}
+
+.background-transparent {
+  background-color: transparent!important;
+}
+
+/* FOOTER*/
+.section-footer {
+  height: 127px;
+}
+
+.bg-footer {
+  background-color: rgba(53, 63, 71);
 }
