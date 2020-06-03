@@ -6,7 +6,7 @@ include('header.php');
 <section class="container-fluid bg-blue">
   <div class="container pt-5">
     <h2 class="text-uppercase">Services</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
   </div>
   <div class="container mt-4 pb-5">
     <div class="row">
@@ -41,7 +41,7 @@ include('header.php');
     <div class="row mb-5">
       <div class="col-lg-6">
         <h2 class=" text-uppercase text-color-black">Portfolio</h2>
-        <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" />
+        <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" class="mt-n4" />
       </div>
       <div class="col-lg-6">
         <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -130,14 +130,12 @@ include('header.php');
 
 <!-- Default section start -->
 <section class="bg-default-section">
-  <div class="container pt-5 pb-4">
-    <h2 class="text-uppercase">Just default section</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
-  </div>
-  <div class="container pb-5">
+  <div class="container pt-5 pb-5">
     <div class="row">
       <div class="col-lg-6">
-        <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p><br>
+        <h2 class="text-uppercase">Just default section</h2>
+        <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
+        <p class="pt-3">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
         <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
         </p>
         <button type="button" class="btn btn-outline-dark text-uppercase">Visit me</button>
@@ -153,7 +151,7 @@ include('header.php');
 <section class="bg-blue">
   <div class="container pt-5 pb-4">
     <h2 class="text-uppercase">Twitter</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
     <i class="fab fa-twitter fa-lg text-white d-flex justify-content-end"></i>
     <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <br> <span class="font-weight-bold">@cheesecake</span> tootsie roll.</p>
   </div>
@@ -164,9 +162,9 @@ include('header.php');
 <section class="john-doe-image section-john-doe">
   <div class="container pt-5">
     <h2 class="text-uppercase">Who is John Doe?</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
   </div>
-  <div class="container">
+  <div class="container pt-3">
     <div class="row">
       <div class="col-lg-6">
         <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p><br>
@@ -188,7 +186,7 @@ include('header.php');
 <section class="height: 360px;">
   <div class="container pt-5 pb-4">
     <h2 class="text-uppercase text-dark">Testimonials</h2>
-    <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" />
+    <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" class="mt-n4"/>
     <span class="text-dark d-flex justify-content-end font-weight-bold">"</span>
     <p class="text-dark">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
     <p class="color-author-testimonial">- Walter White</p>
@@ -200,7 +198,7 @@ include('header.php');
 <section class="layer section-contact">
   <div class="container pt-5 pb-4">
     <h2 class="text-uppercase">Contact</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" />
+    <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4"/>
   </div>
   <div class="container">
     <form>
@@ -230,7 +228,7 @@ include('header.php');
         <div class="col">
           <label class="text-uppercase">Message</label>
           <textarea name="description" id="description" rows="8" class="form-control background-transparent" ></textarea><br>
-          <button class="text-uppercase"  type="button">Message</button>
+          <button class="text-uppercase text-center text-white button-contact"  type="button">Message</button>
         </div>
       </div>
     </form>

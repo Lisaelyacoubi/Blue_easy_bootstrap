@@ -159,10 +159,6 @@ iframe {
    height: 313px;
 }
 
-/* TWITTER */
-
-
-
 /* WHO IS JOHN DOE */
 
 .section-john-doe {
@@ -199,6 +195,12 @@ iframe {
 
 .background-transparent {
   background-color: transparent!important;
+}
+
+.button-contact {
+  background-color: rgba(75, 202, 255);
+  padding: 10px 40px 10px 40px;
+  border-color:  rgba(75, 202, 255);
 }
 
 /* FOOTER*/
