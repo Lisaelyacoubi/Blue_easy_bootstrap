@@ -25,7 +25,7 @@
             </li>
           </ul>
         </div>
-        <small class="d-flex justify-content-end">2013 &copy;</small>
+        <small class=" text-dark-grey d-flex justify-content-end">2013 &copy;</small>
       </nav>
     </div>
   </section>
