@@ -211,7 +211,7 @@ include('header.php');
       <div class="row form-group">
         <div class="col">
           <label class="text-uppercase">Full name</label>
-          <input type="text" class="form-control background-transparent">
+          <input type="text" class="form-control bg-transparent rounded-0">
         </div>
         <div class="col">
           <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
@@ -220,20 +220,21 @@ include('header.php');
       <div class="row form-group">
         <div class="col">
           <label class="text-uppercase">Email address</label>
-          <input type="email" class="form-control background-transparent" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control bg-transparent rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="col">
-          <p><span>Linda Newman</span><br>
-          <span>W325 State Road 123</span><br>
-          <span>Mondovi, WI(Wisconsin) 98746-54321</span><br>
-          <span>(715) 946 - 1234</span>
-        </p>
+          <p>
+            <span>Linda Newman</span><br>
+            <span>W325 State Road 123</span><br>
+            <span>Mondovi, WI(Wisconsin) 98746-54321</span><br>
+            <span>(715) 946 - 1234</span>
+          </p>
         </div>
       </div>
       <div class="row form-group">
         <div class="col">
           <label class="text-uppercase">Message</label>
-          <textarea name="description" id="description" rows="8" class="form-control background-transparent" ></textarea><br>
+          <textarea name="description" id="description" rows="8" class="form-control bg-transparent rounded-0" ></textarea><br>
           <button class="text-uppercase text-center text-white button-contact"  type="button">Message</button>
         </div>
       </div>

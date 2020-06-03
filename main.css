@@ -195,10 +195,6 @@ iframe {
   opacity: 2;
 }
 
-.background-transparent {
-  background-color: transparent!important;
-}
-
 .button-contact {
   background-color: rgba(75, 202, 255);
   padding: 10px 40px 10px 40px;

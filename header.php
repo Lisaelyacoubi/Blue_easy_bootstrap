@@ -57,7 +57,7 @@
               </div>
             </div>
             <div class="container center">
-              <h2 class="text-uppercase text-center"><mark class="bg-dark-grey">"I'm looking for the unexpected.</mark><br><br><mark class="bg-dark-grey">I'm looking for things i've never seen before."</mark></h2>
+              <h2 class="text-uppercase text-center "><mark class="bg-dark-grey text-white">“I'm looking for the unexpected.</mark><br><br><mark class="bg-dark-grey text-white">I'm looking for things i've never seen before.”</mark></h2>
             </div>
           </div>
         </section>
