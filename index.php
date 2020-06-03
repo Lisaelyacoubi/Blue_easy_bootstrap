@@ -3,7 +3,7 @@ include('header.php');
  ?>
 
 <!-- Services Start-->
-<section class="container-fluid bg-blue">
+<section class="container-fluid bg-blue" id="service">
   <div class="container pt-5">
     <h2 class="text-uppercase">Services</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
@@ -36,7 +36,7 @@ include('header.php');
 <!-- Services End-->
 
 <!-- Portfolio start -->
-<section class="container-fluid">
+<section class="container-fluid" id="portfolio">
   <div class="container pt-5">
     <div class="row mb-5">
       <div class="col-lg-6">
@@ -201,7 +201,7 @@ include('header.php');
 <!-- Testimonials end -->
 
 <!-- Contact start -->
-<section class="layer">
+<section class="layer" id="contact">
   <div class="container pt-5">
     <h2 class="text-uppercase">Contact</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4"/>

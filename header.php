@@ -37,16 +37,16 @@
                           <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#">Services<span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="#service">Services<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                           <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase margin-right-contact" href="#">Contact <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase margin-right-contact" href="#contact">Contact <span class="sr-only">(current)</span></a>
                         </li>
                       </ul>
                     </div>

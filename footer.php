@@ -12,7 +12,7 @@
               <a class="nav-link text-uppercase text-dark-grey " href="#">Home <span class="sr-only">(current)</span> <span class="ml-1">|</span> </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey" href="#">Services<span class="sr-only">(current)</span> <span class="ml-1">|</span>  </a>
+              <a class="nav-link text-uppercase text-dark-grey" href="#serice">Services<span class="sr-only">(current)</span> <span class="ml-1">|</span>  </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-uppercase text-dark-grey" href="#">Features <span class="sr-only">(current)</span> <span class="ml-1">|</span>  </a>
