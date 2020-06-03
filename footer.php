@@ -1,4 +1,4 @@
-<footer class="bg-footer section-footer pt-5">
+<footer class="bg-footer pt-5 pb-5">
   <!-- Footer start -->
   <section>
     <div class="container">

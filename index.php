@@ -150,21 +150,27 @@ include('header.php');
 <!-- Twitter start -->
 <section class="bg-blue">
   <div class="container pt-5 pb-4">
-    <h2 class="text-uppercase">Twitter</h2>
-    <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
-    <i class="fab fa-twitter fa-lg text-white d-flex justify-content-end"></i>
-    <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <br> <span class="font-weight-bold">@cheesecake</span> tootsie roll.</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="text-uppercase">Twitter</h2>
+        <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
+      </div>
+      <div class="col-lg-6">
+        <i class="fab fa-twitter fa-2x text-white d-flex justify-content-end"></i>
+      </div>
+    </div>
+    <p class="font-size-quotation">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <span class="font-weight-bold">@cheesecake</span> tootsie roll.</p>
   </div>
 </section>
 <!-- Twitter end -->
 
 <!-- Who is John Doe start -->
-<section class="john-doe-image section-john-doe">
+<section class="john-doe-image">
   <div class="container pt-5">
     <h2 class="text-uppercase">Who is John Doe?</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4" />
   </div>
-  <div class="container pt-3">
+  <div class="container pt-3 pb-5">
     <div class="row">
       <div class="col-lg-6">
         <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p><br>
@@ -183,24 +189,24 @@ include('header.php');
 <!-- Who is John Doe end -->
 
 <!-- Testimonials start -->
-<section class="height: 360px;">
+<section>
   <div class="container pt-5 pb-4">
     <h2 class="text-uppercase text-dark">Testimonials</h2>
     <img src="images/portfolio/title-deco-line2.png" alt="title-deco-line2" class="mt-n4"/>
-    <span class="text-dark d-flex justify-content-end font-weight-bold">"</span>
-    <p class="text-dark">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
-    <p class="color-author-testimonial">- Walter White</p>
+    <span class="text-dark d-flex justify-content-end size-quotation mt-n4">”</span>
+    <p class="text-dark font-size-quotation mt-n5">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
+    <p class="color-author-testimonial font-size-author font-weight-bold">- Walter White</p>
   </div>
 </section>
 <!-- Testimonials end -->
 
 <!-- Contact start -->
-<section class="layer section-contact">
-  <div class="container pt-5 pb-4">
+<section class="layer">
+  <div class="container pt-5">
     <h2 class="text-uppercase">Contact</h2>
     <img src="images/service/title-deco-line.png" alt="title-deco-line" class="mt-n4"/>
   </div>
-  <div class="container">
+  <div class="container pb-4">
     <form>
       <div class="row form-group">
         <div class="col">
@@ -213,7 +219,7 @@ include('header.php');
       </div>
       <div class="row form-group">
         <div class="col">
-          <label for="exampleInputEmail1">Email address</label>
+          <label class="text-uppercase">Email address</label>
           <input type="email" class="form-control background-transparent" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="col">

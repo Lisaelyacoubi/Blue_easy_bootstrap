@@ -161,10 +161,6 @@ iframe {
 
 /* WHO IS JOHN DOE */
 
-.section-john-doe {
-  height: 502px;
-}
-
 .john-doe-image {
     background: url('images/who/bg-john-doe.png');
     background-size: cover;
@@ -173,18 +169,24 @@ iframe {
 }
 
 /* TESTIMONIAL */
-.section-testimonial {
-  height: 360px;
-}
+
 .color-author-testimonial {
   color: rgba(134, 216, 255);
 }
 
-/* CONTACT */
-
-.section-contact {
-  height: 813px;
+.size-quotation {
+  font-size: 72px;
 }
+
+.font-size-quotation {
+  font-size: 28px;
+}
+
+.font-size-author {
+  font-size: 12px;
+}
+
+/* CONTACT */
 
 .layer {
   background: url('images/contact/smoke.png');
@@ -204,9 +206,6 @@ iframe {
 }
 
 /* FOOTER*/
-.section-footer {
-  height: 127px;
-}
 
 .bg-footer {
   background-color: rgba(53, 63, 71);
