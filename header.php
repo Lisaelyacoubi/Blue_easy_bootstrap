@@ -56,8 +56,8 @@
                 <!-- Row end -->
               </div>
             </div>
-            <div class="container center">
-              <h2 class="text-uppercase text-center "><mark class="bg-dark-grey text-white">“I'm looking for the unexpected.</mark><br><br><mark class="bg-dark-grey text-white">I'm looking for things i've never seen before.”</mark></h2>
+            <div class="container text-center">
+              <h2 class="text-uppercase padding-top"><mark class="bg-dark-grey text-white">“I'm looking for the unexpected.</mark><br><br><mark class="bg-dark-grey text-white">I'm looking for things i've never seen before.”</mark></h2>
             </div>
           </div>
         </section>
