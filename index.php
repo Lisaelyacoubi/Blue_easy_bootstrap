@@ -138,9 +138,9 @@ include('header.php');
         <p class="pt-3">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
         <p>Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
         </p>
-        <button type="button" class="btn btn-outline-dark text-uppercase">Visit me</button>
+        <button type="button" class="btn btn-outline-dark text-uppercase mb-2">Visit me</button>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 d-none d-sm-block">
         <iframe src="https://player.vimeo.com/video/188829802" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
     </div>
