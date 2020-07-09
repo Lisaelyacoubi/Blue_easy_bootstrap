@@ -87,9 +87,8 @@ font-style: normal;}
 
   /* TITLE */
 
-.center {
-  margin-top: 245px;
-  margin-left: 251px;
+.padding-top {
+  padding-top: 250px;
 }
 
 
