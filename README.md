@@ -4,4 +4,4 @@
 
 Intégration de la version desktop de la maquette en psd.
 
-![blueasy](https://imgur.com/5T11QzQ)
+![blueasy](https://i.imgur.com/5T11QzQ.png)
