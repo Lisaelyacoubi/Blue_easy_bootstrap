@@ -9,19 +9,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey " href="#">Home <span class="sr-only">(current)</span> <span class="ml-1">|</span> </a>
+              <a class="nav-link text-uppercase text-dark-grey " href="https://lisae.promo-42.codeur.online/Blueasy">Home <span class="sr-only">(current)</span> <span class="ml-1">|</span> </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey" href="#serice">Services<span class="sr-only">(current)</span> <span class="ml-1">|</span>  </a>
+              <a class="nav-link text-uppercase text-dark-grey" href="#service">Services <span class="ml-1">|</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey" href="#">Features <span class="sr-only">(current)</span> <span class="ml-1">|</span>  </a>
+              <a class="nav-link text-uppercase text-dark-grey" href="#feature">Features<span class="ml-1">|</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey" href="#">Portfolio <span class="sr-only">(current)</span> | </a>
+              <a class="nav-link text-uppercase text-dark-grey" href="#portfolio">Portfolio<span class="ml-1">|</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-uppercase text-dark-grey" href="#">Contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-uppercase text-dark-grey" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

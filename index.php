@@ -129,7 +129,7 @@ include('header.php');
 <!-- Portfolio End -->
 
 <!-- Default section start -->
-<section class="bg-default-section">
+<section class="bg-default-section" id="feature">
   <div class="container pt-5 pb-5">
     <div class="row">
       <div class="col-lg-6">

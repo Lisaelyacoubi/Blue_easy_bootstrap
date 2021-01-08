@@ -1,4 +1,9 @@
 /* COMMON */
+
+html {
+  scroll-behavior: smooth!important;
+}
+
 .color-light-blue {
   color: rgba(75, 202, 255)
 }

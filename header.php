@@ -34,19 +34,19 @@
                     <div class="collapse navbar-collapse col-lg-6" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="https://lisae.promo-42.codeur.online/Blueasy">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#service">Services<span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="#service">Services</a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#">Features <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="#feature">Features</a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase mr-4" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase mr-4" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link text-uppercase margin-right-contact" href="#contact">Contact <span class="sr-only">(current)</span></a>
+                          <a class="nav-link text-uppercase margin-right-contact" href="#contact">Contact</a>
                         </li>
                       </ul>
                     </div>
